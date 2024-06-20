@@ -1,9 +1,16 @@
+$Rubik : 'Rubik', sans-serif;
+$Jost : 'Jost', sans-serif;
+$Josefin : 'Josefin Sans', sans-serif;
+$OpenSans : 'Open Sans', sans-serif;
+$Ropa : 'Ropa Sans', sans-serif;
 nav{
     display: flex;
     justify-content: flex-end; 
-    margin-right: 60px;
+    margin-right: 160px;
     background-color: #333;  
     padding: 10px;
+    font-family: $Rubik;
+    font-size:18px;
 
     .navbar a {
         color: white;             

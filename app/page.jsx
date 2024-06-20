@@ -9,10 +9,8 @@ export default function Home() {
     <Navbar/>
 
     <h1> Welcome to VidFetch - YouTube Video Downloader</h1>
-    
-   
-
-Download YouTube videos effortlessly with VidFetch. Save your favorite videos for offline viewing, learning, or entertainment.
+    <h2><small>Download YouTube videos effortlessly with VidFetch. Save your favorite videos for offline viewing, learning, or entertainment.
+</small></h2>
     </main>
   );
 }

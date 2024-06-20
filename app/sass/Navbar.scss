@@ -1,14 +1,20 @@
 
 nav{
-    background-color: #333;
-    color: white;
-    padding: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end; 
+    margin-right: 50px;
+    background-color: #333;  
+    padding: 10px;
 
-    Link{
-        color: white;
+    .navbar a {
+        color: white;             
         text-decoration: none;
-    }
+        margin-left: 10px;    
+      }
+      
+      .navbar a:hover {
+        text-decoration: underline;
+      }
 }
+  
+  

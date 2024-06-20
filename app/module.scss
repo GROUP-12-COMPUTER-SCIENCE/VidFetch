@@ -1,0 +1,13 @@
+$linear-gradient: linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
+
+main {
+    h1 {
+        color: linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
+        text-align: center;
+      }
+      
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+}

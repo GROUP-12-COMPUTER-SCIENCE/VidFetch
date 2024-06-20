@@ -153,3 +153,23 @@ main {
     margin: 0 auto;
   }
 }
+.frosted {
+    backdrop-filter: blur(0px);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      right: -20px;
+      bottom: -20px;
+      background: linear-gradient(135deg, rgb(5, 94, 157), #d0e, #09e, #0ed); // Your desired gradient
+      z-index: -1;
+      filter: blur(100px);
+      opacity: 0.1; 
+    }
+  }

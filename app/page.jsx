@@ -12,10 +12,12 @@ export default function Home() {
     <h1>VidFetch - YouTube Video Downloader</h1>
     <h2><small>Download YouTube videos effortlessly with VidFetch. Save your favorite videos for offline viewing, learning, or entertainment.
 </small></h2>
+<div className="frosted">
  <form action="/download" method="post">
     <input type="text" name="url" placeholder="Enter YouTube video URL" required/>
     <button type="submit">Download</button>
     </form>
+    </div>
 <div className="unique">
   <div className="unlimited">
     <h3>Unlimited Downloads</h3>

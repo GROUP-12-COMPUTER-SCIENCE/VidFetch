@@ -5,22 +5,28 @@ $OpenSans : 'Open Sans', sans-serif;
 $Ropa : 'Ropa Sans', sans-serif;
 nav{
     display: flex;
+    flex-direction: row;
+    gap: 100px !important;
     justify-content: flex-end; 
     margin-right: 160px;
     background-color: #333;  
     padding: 10px;
     font-family: $Rubik;
     font-size:18px;
-
-    .navbar a {
-        color: white;             
+    .navbar a {     
+      color: #ddd;      
         text-decoration: none;
         margin-left: 10px;
-        gap: 80px;    
+            
       }
       
       .navbar a:hover {
-        text-decoration: underline;
+        padding: 5px;
+        margin: auto;
+        text-decoration: none;
+        border-radius: 8px;
+        color: crimson;
+        border-bottom: 3px solid #fff;
       }
 }
   

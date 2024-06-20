@@ -93,7 +93,7 @@ main {
             }
         }
         .unique{
-            margin-top: 100px;
+            margin-top: 10px;
             display: flex;
             flex-direction: row;
             width: 100%;
@@ -160,17 +160,19 @@ main {
         -webkit-text-fill-color: transparent;
         font-size: 3rem;
         font-family: $Rubik;
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
+        margin-top: 90px;
         
       }
-      
-  h2 {
-    color: #fff;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-  }
+      h2{
+        font-size: 28px;
+        font-family: $Josefin;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+      }
 }
 .frosted {
     backdrop-filter: blur(0px);

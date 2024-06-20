@@ -4,11 +4,13 @@ import styles from '../sass/Navbar.scss'
 
 export default function Navbar() {
   return (
-    <main className={styles.main}> 
-        <nav className='navbar'>
+    <main className={styles.main}>
+        <nav> 
+        <div className="navbar">
       <Link href="/">Home</Link>
       <Link href="/about">About Us</Link>
       <Link href="/contact">Contact</Link>
+      </div>
     </nav>
     </main>
   )

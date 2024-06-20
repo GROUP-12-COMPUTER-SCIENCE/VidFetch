@@ -1,9 +1,15 @@
 $linear-gradient: linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
 
 main {
+    .content{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
     h1 {
-        color: linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
-        text-align: center;
+        background:linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
+        background-clip: text; 
+        -webkit-text-fill-color: transparent;
       }
       
   h2 {

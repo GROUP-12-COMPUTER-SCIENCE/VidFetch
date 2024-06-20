@@ -1,15 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 $linear-gradient: linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
+$Rubik : 'Rubik', sans-serif;
+$Jost : 'Jost', sans-serif;
+$Josefin : 'Josefin Sans', sans-serif;
+$OpenSans : 'Open Sans', sans-serif;
+$Ropa : 'Ropa Sans', sans-serif;
+
 
 main {
     .content{
         width: 60%;
         margin: 0 auto;
+        .unique{
+            display: flex;
+            flex-direction: row;
+        }
+
+        form{
+            input{
+                width: 80%;
+                height: 40px ;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 28px;
+                border: 1px solid coral;
+                background-color: transparentize($color: #333333, $amount: 0);
+                outline: none;
+            }
+            button{
+                width: 100px;
+                margin: 10px 0;
+                height:50px ;
+                border-radius: 28px;
+                border: 1px solid coral;
+                background-color: coral;
+                color: #fff;
+                font-size: 1rem;
+                font-family: $Rubik;
+                cursor: pointer;
+                outline: none;
+                position: relative;
+                right: 110px;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    background-color: transparent;
+                    color: coral;
+                    border: 1px solid coral;
+                }
+
+            }
+        }
     }
     
     h1 {
         background:linear-gradient(to right, #1320d3, #0bb4ca, #0bca0b, #d3d30b, #d30b0b);
         background-clip: text; 
         -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        font-family: $Rubik;
+        
       }
       
   h2 {

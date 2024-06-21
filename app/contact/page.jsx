@@ -8,7 +8,7 @@ export default function Contact() {
   };
 
   return (
-    <main className={styles.main}>
+    <main className="contact">
       <Navbar />
       <div className={styles.content}>
         <h1>Contact Us</h1>

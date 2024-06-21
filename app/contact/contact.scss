@@ -1,40 +1,20 @@
-.main {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(135deg, #e09, #d0e, #09e, #0ed);
     padding: 20px;
     box-sizing: border-box;
   }
   
-  .content {
+  .content-contact {
     text-align: center;
     max-width: 800px;
   }
-  
-.frosted {
-    backdrop-filter: blur(0px);
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    padding: 20px;
-    margin: 20px;
-    position: relative;
-    &::before {
-      content: "";
-      position: absolute;
-      top: -20px;
-      left: -20px;
-      right: -20px;
-      bottom: -20px;
-      background: linear-gradient(135deg, rgb(5, 94, 157), #d0e, #09e, #0ed); // Your desired gradient
-      z-index: -1;
-      filter: blur(100px);
-      opacity: 0.1; 
-    }
-  }
-
+  .contact-form{
+    background-color: red;
+    margin: 0 auto;
   input, textarea {
     display: block;
     width: 40%;
@@ -59,4 +39,5 @@
   button:hover {
     background-color: #0ed;
   }
+}
   
